@@ -151,9 +151,5 @@ def show_dashbaord():
     return render_template('dashboard.html', script=script, div=div)
 
 
-@app.route('/about')
-def about():
-  return render_template('about.html')
-
 if __name__ == '__main__':
-  app.run(port=61367, debug=True)
+  app.run(debug=True)
