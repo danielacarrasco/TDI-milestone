@@ -3,3 +3,8 @@ requests==2.20.0
 yfinance
 bokeh==2.2.3
 flask
+pandas
+dill
+jinja2
+pip
+simplejson
