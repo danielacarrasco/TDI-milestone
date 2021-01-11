@@ -3,29 +3,48 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="Skeleton application demoing Heroku and Flask integration.">
-    <meta name="author" content="@gotoariel">
+    <meta name="description" content="Heroku/Flask Demo Milestone Project">
+    <meta name="author" content="Daniela Carrasco-Nunez">
     <!-- <link rel="icon" href="favicon.ico"> -->
 
-    <title>Wilkommen, bienvenue, and welcome to Heroku!</title>
+    <title>Heroku stock price</title>
 
     <!-- Bootstrap core CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   </head>
   <body>
+   
     <div class="container">
+          <h3>Stocks Project</h3>
       <div class="row">
         <div class="col-lg-12 text-left">
-          <h2>Hello, World!</h2>
-          <ul>
-            <li><a href="/about">About</a></li>
+            <form id='form' method='post' action='/' >
+              <p>
+            Ticker: <input type='text' name='ticker' />
+              </p>
+              <p>
+            Open Value: <input type='checkbox' name='open' value='Open'/>
+              </p>
+              <p>
+            Close Value: <input type='checkbox' name='close' value='Close'/>
+              </p>
+              <p>
+            <input type='submit' value='Submit' />
+              </p>
+            </form>
+        </div>
+      </div>
+      <ul>
+          <h2>Code</h2>
+            <li><a target="_blank" href="https://github.com/danielacarrasco/TDI-milestone">Github code</a></li>
+          </ul>
+      <ul>
+          <h2>Resources</h2>
             <li><a target="_blank" href="https://www.heroku.com/">Heroku</a></li>
             <li><a target="_blank" href="http://flask.pocoo.org/">Flask</a></li>
             <li><a target="_blank" href="http://jinja.pocoo.org/docs/2.9/">Jinja2</a></li>
             <li><a target="_blank" href="http://getbootstrap.com/">Bootstrap</a></li>
           </ul>
-        </div>
-      </div>
     </div>
     <!-- Bootstrap core JavaScript
     ================================================== -->
