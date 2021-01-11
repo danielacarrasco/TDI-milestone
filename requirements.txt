@@ -3,4 +3,3 @@ requests==2.20.0
 yfinance
 bokeh
 flask
-requests
