@@ -15,11 +15,6 @@ from bokeh.models.widgets import Tabs, Panel
 
 from bokeh.models import CheckboxButtonGroup, CheckboxGroup, CustomJS, Dropdown, Select
 
-output_notebook()
-
-output_file('first_glyphs.html', title='Companies Stock Price')
-
-
 
 stock = yf.Ticker("aapl")
 stock = stock.history(period="1y")
